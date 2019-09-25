@@ -8,4 +8,6 @@
     <string name="static_fragment">Contoh Static Fragment</string>
     <string name="dynamic_fragment">Contoh Dynamic Fragment</string>
     <string name="praktikum_fragment">Tugas Praktikum Fragment</string>
+    <string name="load_red_fragment">Load Red Fragment</string>
+    <string name="load_blue_fragment">Load Blue Fragment</string>
 </resources>
