@@ -6,14 +6,11 @@ import android.os.Bundle;
 
 import polinema.ac.id.starterchapter05.R;
 
-import polinema.ac.id.starterchapter05.MainActivity;
-
-public class StaticActivity extends AppCompatActivity {
+public class DynamicActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_static);
-        
+        setContentView(R.layout.activity_dynamic);
     }
 }
