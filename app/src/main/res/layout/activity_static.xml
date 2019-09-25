@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/red_fragment_placeholder"
-        android:name="polinema.ac.id.starterchapter05.fragment.RedFragment"
+        android:name="polinema.ac.id.starterchapter05.fragment.BlueFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintTop_toTopOf="parent"
