@@ -10,11 +10,11 @@
         android:id="@+id/btn_static_fragment"
         android:layout_width="188dp"
         android:layout_height="41dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="92dp"
         android:layout_marginBottom="31dp"
         android:onClick="handlerStaticFragment"
         android:text="@string/static_fragment"
-        app:layout_constraintBottom_toTopOf="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/btn_dynamic_fragment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="wrap_content" />
+        app:layout_constraintTop_toBottomOf="@id/btn_static_fragment" />
 
     <Button
         android:id="@+id/btn_praktikum_fragment"
@@ -47,6 +47,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="wrap_content" />
+        app:layout_constraintTop_toBottomOf="@id/btn_dynamic_fragment" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
